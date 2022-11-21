@@ -1,0 +1,26 @@
+{
+    "name": "sirbizz/softwarelab",
+    "description": "You can create the to-do-list of your task.",
+    "authors": [
+        {
+            "name": "Md. Shaikot Ikbal Hridoy",
+            "email": "ikbal15.1320.japan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sirbizz\\SoftwareLab\\InspirationProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Sirbizz\\SoftwareLab\\": "src/"
+        }
+    }
+}
