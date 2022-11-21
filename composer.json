@@ -34,5 +34,6 @@
           "SoftwareLab": "Sirbizz\\SoftwareLab\\SoftwareLab"
         }
       }
-    }
+    },
+    "minimum-stability": "dev"
 }
