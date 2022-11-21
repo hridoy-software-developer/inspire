@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class SoftwareLabController {
 	public function index(){
 		$quote = "Cool Package Development 😊";
-		return view('vue::index', compact('quote'));
+		return $quote;
 	}
 }
