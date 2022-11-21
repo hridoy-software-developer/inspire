@@ -1,26 +1,38 @@
 {
     "name": "sirbizz/softwarelab",
-    "description": "You can create the to-do-list of your task.",
+    "description": "this package used for the make package software website.",
+    "type": "library",
+    "keywords": [
+        "sirbizz-softwarelab",
+        "softwarelab",
+        "laravel",
+        "php"
+    ],
+    "require": {
+        "php": ">=5.6",
+        "illuminate/support": ">=5.4",
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "license": "MIT",
     "authors": [
         {
-            "name": "Md. Shaikot Ikbal Hridoy",
+            "name": "Md. Shaikot Ikbal hridoy",
             "email": "ikbal15.1320.japan@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {
-        "guzzlehttp/guzzle": "^7.0.1"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Sirbizz\\SoftwareLab\\Providers\\InspirationProvider"
-            ]
-        }
-    },
     "autoload": {
         "psr-4": {
-            "Sirbizz\\SoftwareLab\\": "src/"
+          "Sirbizz\\SoftwareLab\\": "src/"
         }
+      },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "\\Sirbizz\\SoftwareLab\\SoftwareLabProvider"
+        ],
+        "aliases": {
+          "SoftwareLab": "Sirbizz\\SoftwareLab\\SoftwareLab"
+        }
+      }
     }
 }

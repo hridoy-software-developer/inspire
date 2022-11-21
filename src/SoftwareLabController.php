@@ -1,13 +1,12 @@
 <?php
 
-namespace Sirbizz\SoftwareLab\Controllers;	
+namespace Sirbizz\SoftwareLab;	
 
 use Illuminate\Http\Request;
 
-class InspirationController {
+class SoftwareLabController {
 	public function index(){
 		$quote = "Cool Package Development 😊";
 		return view('vue::index', compact('quote'));
 	}
 }
-
