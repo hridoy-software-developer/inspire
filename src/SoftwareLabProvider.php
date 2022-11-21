@@ -14,7 +14,7 @@ class SoftwareLabProvider extends ServiceProvider
      */
     public function boot()
     {
-		$this->loadRoutesFrom(__DIR__.'/../web.php');
+		$this->loadRoutesFrom(__DIR__.'/web.php');
     }
 
     /**
