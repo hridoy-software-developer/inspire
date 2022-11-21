@@ -14,7 +14,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Sirbizz\\SoftwareLab\\InspirationProvider"
+                "Sirbizz\\SoftwareLab\\Providers\\InspirationProvider"
             ]
         }
     },
